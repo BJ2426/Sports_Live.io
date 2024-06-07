@@ -1,0 +1,708 @@
+.EarnWithCrypto_wrapper__oWZwL {
+  background-color: #090817
+}
+
+.EarnWithCrypto_header__IDwZ_ {
+  background-color: #090817;
+  height: 540px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_header__IDwZ_ {
+    flex-direction: row;
+    align-items: center
+  }
+}
+
+.EarnWithCrypto_headerBtn__RJeSq {
+  position: relative;
+  z-index: 999
+}
+
+.EarnWithCrypto_headerBtn__RJeSq div {
+  text-transform: none;
+  letter-spacing: .16px;
+  line-height: 18px
+}
+
+.EarnWithCrypto_headerText__4bFNM {
+  white-space: pre-wrap;
+  font-size: 24px;
+  font-stretch: 97%;
+  color: var(--c-opposite-text, #fff);
+  font-weight: 530;
+  text-align: center;
+  margin-bottom: 60px;
+  padding-top: 150px;
+  z-index: 999
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_headerText__4bFNM {
+    font-size: 36px;
+    padding-top: 0
+  }
+}
+
+@media(min-width:905px) {
+  .EarnWithCrypto_headerText__4bFNM {
+    font-size: 48px
+  }
+}
+
+.EarnWithCrypto_headerTextGreen__PrM81 {
+  font-size: 20px;
+  font-stretch: 97%;
+  color: var(--c-main, #1c8d57);
+  text-transform: uppercase;
+  margin-top: 40px;
+  display: block
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_headerTextGreen__PrM81 {
+    font-size: 32px
+  }
+}
+
+@media(min-width:905px) {
+  .EarnWithCrypto_headerTextGreen__PrM81 {
+    font-size: 40px
+  }
+}
+
+.EarnWithCrypto_headerTop__kewPM {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%
+}
+
+.EarnWithCrypto_headerMain__95mYS {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden
+}
+
+.EarnWithCrypto_headerGradient__UE9h_ {
+  position: absolute;
+  right: 0;
+  bottom: 0
+}
+
+.EarnWithCrypto_headerImage__8MuKC {
+  width: 100%;
+  position: absolute;
+  right: 0;
+  bottom: 0
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_headerImage__8MuKC {
+    width: 100%;
+    bottom: -160px
+  }
+}
+
+@media(min-width:905px) {
+  .EarnWithCrypto_headerImage__8MuKC {
+    bottom: -200px
+  }
+}
+
+@media(min-width:1240px) {
+  .EarnWithCrypto_headerImage__8MuKC {
+    bottom: -230px
+  }
+}
+
+@media(min-width:1440px) {
+  .EarnWithCrypto_headerImage__8MuKC {
+    bottom: -300px
+  }
+}
+
+@media(min-width:1680px) {
+  .EarnWithCrypto_headerImage__8MuKC {
+    bottom: -440px
+  }
+}
+
+@media(min-width:2150px) {
+  .EarnWithCrypto_headerImage__8MuKC {
+    bottom: -400px;
+    right: 200px;
+    width: 80%
+  }
+}
+
+.EarnWithCrypto_headerRegisterIcon__tfHtm {
+  position: fixed;
+  right: 26px;
+  top: calc(50vh + 20%);
+  z-index: 9999;
+  cursor: pointer;
+  width: 80px;
+  height: 80px
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_headerRegisterIcon__tfHtm {
+    width: 120px;
+    height: 120px;
+    top: calc(50vh - 60px)
+  }
+}
+
+.EarnWithCrypto_headerRegisterIcon__tfHtm :last-child {
+  -webkit-animation-name: EarnWithCrypto_blink__0qS8j;
+  animation-name: EarnWithCrypto_blink__0qS8j;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite
+}
+
+@-webkit-keyframes EarnWithCrypto_blink__0qS8j {
+  0% {
+    fill: #88ffcb
+  }
+
+  to {
+    fill: #28b594
+  }
+}
+
+@keyframes EarnWithCrypto_blink__0qS8j {
+  0% {
+    fill: #88ffcb
+  }
+
+  to {
+    fill: #28b594
+  }
+}
+
+.EarnWithCrypto_wrapStats__2Cnma {
+  margin-bottom: 80px
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_wrapStats__2Cnma {
+    margin-bottom: 240px
+  }
+}
+
+.EarnWithCrypto_wrapStats__2Cnma .container {
+  max-width: 1200px
+}
+
+.EarnWithCrypto_wrapStats__2Cnma .EarnWithCrypto_statsTitle__yALIC {
+  font-size: 20px;
+  font-stretch: 97%;
+  color: var(--c-opposite-text, #fff);
+  font-weight: 530;
+  margin-bottom: 50px
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_wrapStats__2Cnma .EarnWithCrypto_statsTitle__yALIC {
+    margin-bottom: 100px;
+    font-size: 36px
+  }
+}
+
+.EarnWithCrypto_wrapStats__2Cnma .EarnWithCrypto_statsDescription__X5e2s {
+  font-size: 14px;
+  font-stretch: 97%;
+  color: var(--c-main-text, #151327);
+  white-space: pre-line
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_wrapStats__2Cnma .EarnWithCrypto_statsDescription__X5e2s {
+    font-size: 18px
+  }
+}
+
+.EarnWithCrypto_wrapStats__2Cnma .EarnWithCrypto_statsLabel__VWjwX {
+  font-size: 18px;
+  font-stretch: 97%;
+  color: var(--c-main-text, #151327);
+  font-weight: 530;
+  margin-bottom: 35px
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_wrapStats__2Cnma .EarnWithCrypto_statsLabel__VWjwX {
+    font-size: 24px
+  }
+}
+
+.EarnWithCrypto_wrapStats__2Cnma .EarnWithCrypto_statsImg__ngB_5 {
+  width: 100%;
+  -o-object-fit: contain;
+  object-fit: contain
+}
+
+.EarnWithCrypto_wrapStats__2Cnma .EarnWithCrypto_statsImg__ngB_5:first-child {
+  margin-bottom: 50px
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_wrapStats__2Cnma .EarnWithCrypto_statsImg__ngB_5:first-child {
+    margin-bottom: 100px
+  }
+}
+
+.EarnWithCrypto_steps__lpOKX {
+  margin-bottom: 60px
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_steps__lpOKX {
+    margin-bottom: 120px
+  }
+}
+
+.EarnWithCrypto_stepsContainer__m0BXL {
+  padding: 30px 15px
+}
+
+.EarnWithCrypto_steps__lpOKX .container {
+  max-width: 1200px
+}
+
+.EarnWithCrypto_stepsTitle__SsvIV {
+  font-size: 20px;
+  font-stretch: 97%;
+  color: var(--c-opposite-text, #fff);
+  font-weight: 530;
+  white-space: pre-line;
+  margin-bottom: 30px;
+  text-align: center
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_stepsTitle__SsvIV {
+    font-size: 36px
+  }
+}
+
+@media(min-width:1240px) {
+  .EarnWithCrypto_stepsTitle__SsvIV {
+    text-align: left
+  }
+}
+
+.EarnWithCrypto_stepsText__cZSfs {
+  font-size: 14px;
+  font-stretch: 97%;
+  color: var(--c-opposite-text, #fff);
+  white-space: pre-line;
+  margin-bottom: 80px;
+  text-align: center
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_stepsText__cZSfs {
+    font-size: 18px
+  }
+}
+
+@media(min-width:1240px) {
+  .EarnWithCrypto_stepsText__cZSfs {
+    text-align: left
+  }
+}
+
+.EarnWithCrypto_stepsText__cZSfs .EarnWithCrypto_BaseLink__xSxEr {
+  font-size: 14px;
+  font-stretch: 97%;
+  color: var(--c-opposite-text, #fff);
+  text-decoration: underline
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_stepsText__cZSfs .EarnWithCrypto_BaseLink__xSxEr {
+    font-size: 18px
+  }
+}
+
+.EarnWithCrypto_stepsRow__PADdG {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 90px;
+  grid-row-gap: 80px
+}
+
+@media(min-width:1240px) {
+  .EarnWithCrypto_stepsRow__PADdG {
+    grid-template-columns: repeat(2, 1fr)
+  }
+}
+
+.EarnWithCrypto_stepsItem__cP9g8 {
+  width: 100%;
+  margin: auto
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_stepsItem__cP9g8 {
+    display: flex;
+    align-items: flex-start;
+    background-color: #19172c;
+    border-radius: 4px;
+    width: 480px
+  }
+}
+
+@media(min-width:1240px) {
+  .EarnWithCrypto_stepsItem__cP9g8 {
+    margin: 0 0 0 60px
+  }
+}
+
+.EarnWithCrypto_stepsItemContent__jRu9U {
+  font-size: 36px;
+  font-stretch: 97%;
+  color: var(--c-opposite-text, #fff);
+  font-weight: 530;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
+
+.EarnWithCrypto_stepsItemIcon__D4znD {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(107.2deg, #378a66 1.72%, #0b402c 102%);
+  border-radius: 50%;
+  margin: auto
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_stepsItemIcon__D4znD {
+    left: -60px;
+    width: 120px;
+    height: 120px;
+    margin: 0 40px 0 0
+  }
+}
+
+.EarnWithCrypto_stepsItemText__V7elg {
+  font-size: 14px;
+  font-stretch: 97%;
+  color: var(--c-label, #838997);
+  font-weight: 430;
+  white-space: pre-line;
+  text-align: center
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_stepsItemText__V7elg {
+    text-align: left
+  }
+}
+
+.EarnWithCrypto_stepsItemTitle__DqP2g {
+  text-align: center
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_stepsItemTitle__DqP2g {
+    text-align: left
+  }
+}
+
+.EarnWithCrypto_stepsItemTitle__DqP2g span {
+  font-size: 20px;
+  font-stretch: 97%;
+  color: var(--c-opposite-text, #fff);
+  font-weight: 530;
+  text-transform: uppercase
+}
+
+.EarnWithCrypto_stepsItemTitle__DqP2g img {
+  position: relative;
+  left: 16px
+}
+
+.EarnWithCrypto_stepsGift__X5IaE {
+  display: flex;
+  align-items: center;
+  margin-top: 76px
+}
+
+.EarnWithCrypto_stepsGiftText__nrr5l {
+  font-size: 14px;
+  font-stretch: 97%;
+  color: var(--c-opposite-text, #fff);
+  font-weight: 530;
+  margin-left: 12px
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_stepsGiftText__nrr5l {
+    font-size: 16px
+  }
+}
+
+.EarnWithCrypto_stepsGiftText__nrr5l span {
+  font-size: 18px;
+  font-stretch: 97%;
+  color: var(--c-opposite-text, #fff);
+  font-weight: 650
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_stepsGiftText__nrr5l span {
+    font-size: 24px
+  }
+}
+
+.EarnWithCrypto_journey__UV_hR {
+  margin-bottom: 80px
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_journey__UV_hR {
+    margin-bottom: 200px
+  }
+}
+
+.EarnWithCrypto_journey__UV_hR .container {
+  max-width: 1200px
+}
+
+.EarnWithCrypto_journey__UV_hR .EarnWithCrypto_block__tLKWj {
+  display: grid;
+  grid-template-columns: 1fr
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_journey__UV_hR .EarnWithCrypto_block__tLKWj {
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 140px
+  }
+}
+
+.EarnWithCrypto_journey__UV_hR .EarnWithCrypto_blockTitle__c7OR1 {
+  font-size: 20px;
+  font-stretch: 97%;
+  color: var(--c-opposite-text, #fff);
+  font-weight: 530;
+  margin-bottom: 30px;
+  padding-top: 40px;
+  white-space: pre-wrap
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_journey__UV_hR .EarnWithCrypto_blockTitle__c7OR1 {
+    font-size: 36px
+  }
+}
+
+.EarnWithCrypto_journey__UV_hR .EarnWithCrypto_blockText__7ZNKc {
+  font-size: 14px;
+  font-stretch: 97%;
+  color: var(--c-main-text, #151327);
+  margin-bottom: 20px;
+  white-space: pre-line
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_journey__UV_hR .EarnWithCrypto_blockText__7ZNKc {
+    font-size: 18px;
+    margin-bottom: 50px
+  }
+}
+
+.EarnWithCrypto_journey__UV_hR .EarnWithCrypto_blockImage__RiGE3 {
+  width: 50%;
+  margin: auto
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_journey__UV_hR .EarnWithCrypto_blockImage__RiGE3 {
+    width: auto;
+    margin: 0 0 0 auto
+  }
+}
+
+@media(min-width:905px) {
+  .EarnWithCrypto_journey__UV_hR .EarnWithCrypto_blockImage__RiGE3 {
+    display: block
+  }
+}
+
+.EarnWithCrypto_journey__UV_hR .EarnWithCrypto_blockBtn___umiX {
+  font-size: 16px;
+  width: 190px;
+  height: 56px
+}
+
+.EarnWithCrypto_journey__UV_hR .EarnWithCrypto_blockBtn___umiX div {
+  text-transform: none;
+  line-height: 18px;
+  letter-spacing: .16px
+}
+
+.EarnWithCrypto_wrapVideo__l_2Al .container {
+  max-width: 1200px
+}
+
+.EarnWithCrypto_wrapVideo__l_2Al .EarnWithCrypto_video__nH1IP {
+  margin: 30px auto
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_wrapVideo__l_2Al .EarnWithCrypto_video__nH1IP {
+    margin: 200px auto
+  }
+}
+
+.EarnWithCrypto_wrapVideo__l_2Al .EarnWithCrypto_videoTitle__CUdM6 {
+  font-size: 20px;
+  font-stretch: 97%;
+  color: var(--c-opposite-text, #fff);
+  font-weight: 530;
+  margin-bottom: 50px
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_wrapVideo__l_2Al .EarnWithCrypto_videoTitle__CUdM6 {
+    font-size: 36px
+  }
+}
+
+.EarnWithCrypto_wrapVideo__l_2Al .EarnWithCrypto_videoFrame__WM17Y {
+  position: relative
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_wrapVideo__l_2Al .EarnWithCrypto_videoFrame__WM17Y iframe {
+    height: 675px
+  }
+}
+
+.EarnWithCrypto_wrapVideo__l_2Al .EarnWithCrypto_videoButton__bOtRI {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1
+}
+
+.EarnWithCrypto_wrapVideo__l_2Al .EarnWithCrypto_videoButtonIsVisible__TvuqX {
+  cursor: pointer;
+  background-color: #f4f9f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1
+}
+
+.EarnWithCrypto_wrapVideo__l_2Al .EarnWithCrypto_videoButton__bOtRI a {
+  display: block;
+  width: 100%;
+  height: 100%
+}
+
+.EarnWithCrypto_wrapVideo__l_2Al .EarnWithCrypto_videoButton__bOtRI img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover
+}
+
+.EarnWithCrypto_mobileApp__9bfvb .container {
+  max-width: 1200px
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_mobileApp__9bfvb {
+    padding-bottom: 20px
+  }
+}
+
+.EarnWithCrypto_mobileApp__9bfvb .EarnWithCrypto_block__tLKWj {
+  position: relative;
+  padding-bottom: 220px
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_mobileApp__9bfvb .EarnWithCrypto_block__tLKWj {
+    padding-bottom: 0
+  }
+}
+
+.EarnWithCrypto_mobileApp__9bfvb .EarnWithCrypto_blockTitle__c7OR1 {
+  font-size: 30px;
+  font-stretch: 97%;
+  color: var(--c-opposite-text, #fff);
+  font-weight: 530;
+  margin-bottom: 50px
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_mobileApp__9bfvb .EarnWithCrypto_blockTitle__c7OR1 {
+    font-size: 72px;
+    margin-bottom: 180px;
+    white-space: pre-wrap
+  }
+}
+
+.EarnWithCrypto_mobileApp__9bfvb .EarnWithCrypto_blockText__7ZNKc {
+  font-size: 18px;
+  font-stretch: 97%;
+  color: var(--c-opposite-text, #fff);
+  font-weight: 530;
+  margin-bottom: 56px
+}
+
+.EarnWithCrypto_mobileApp__9bfvb .EarnWithCrypto_blockText__7ZNKc span {
+  margin-right: 13px
+}
+
+.EarnWithCrypto_mobileApp__9bfvb .EarnWithCrypto_blockImage__RiGE3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%
+}
+
+@media(min-width:768px) {
+  .EarnWithCrypto_mobileApp__9bfvb .EarnWithCrypto_blockImage__RiGE3 {
+    right: -130px;
+    width: 85%
+  }
+}
+
+@media(min-width:1240px) {
+  .EarnWithCrypto_mobileApp__9bfvb .EarnWithCrypto_blockImage__RiGE3 {
+    right: -220px;
+    width: 85%
+  }
+}
+
+.EarnWithCrypto_mobileApp__9bfvb .EarnWithCrypto_blockLinkMarket__PF__k {
+  margin-right: 20px
+}
