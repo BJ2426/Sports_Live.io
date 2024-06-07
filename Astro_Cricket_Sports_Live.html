@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  <title>Video Player</title>
-  <meta content="noindex, nofollow, noarchive" name="robots" />
-  <meta name="referrer" content="no-referrer" />
-  <link rel="stylesheet" type="text/css" href="https://mhdmaxtv.net/players/jw.css">
-  <script src='https://cdn.jwplayer.com/libraries/MAaRkUjT.js'></script>
-  <script>
-    jwplayer.key = "jTL7dlu7ybUI5NZnDdVgb1laM8/Hj3ftIJ5Vqg==";
-  </script>
-  <style>
+    <title>Video Player</title>
+    <meta content="noindex, nofollow, noarchive" name="robots"/>
+    <meta name="referrer" content="no-referrer" />
+<link rel="stylesheet" type="text/css" href="https://mhdmaxtv.net/players/jw.css">
+    <script src='https://cdn.jwplayer.com/libraries/MAaRkUjT.js'></script>
+        <script>jwplayer.key = "jTL7dlu7ybUI5NZnDdVgb1laM8/Hj3ftIJ5Vqg==";</script>
+<style>
     body {
       margin: 0;
     }
@@ -25,71 +22,64 @@
     }
   </style>
 </head>
-
 <body>
-  <div id="player" class="ViostreamIframe"></div>
+    <div id="player" class="ViostreamIframe"></div>
 
-  <script>
-    function getParameterByName(name) {
-      name = name.replace(/[\[\]]/g, "\\$&");
-      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-        results = regex.exec(window.location.href);
-      if (!results) return null;
-      if (!results[2]) return '';
-      return decodeURIComponent(results[2].replace(/\+/g, " "));
+    <script>
+        function getParameterByName(name) {
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(window.location.href);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        var ConfiguracionCanales = {
+            
+            "USANETWORK": {
+                url: "https://linearjitp-playback.astro.com.my/dash-wv/linear/2504/default.mpd",
+                k1: "03c2e0af2f8159f9f0ce9b5dbc865f10",
+                k2: "cd84ed136b0cc71f8ab8cd4d4f6a2e4c"
+            },
+            
+           
+
+        };
+
+var id = getParameterByName('id');
+var config = ConfiguracionCanales[id];
+
+if (config) {
+    var sources = [];
+
+    if (config.url.includes('.m3u8')) {
+        sources.push({
+            file: config.url
+        });
+    }
+    
+    if (config.url.includes('.mpd') && config.k1 && config.k2) {
+        sources.push({
+            file: config.url,
+            drm: {"clearkey": {"keyId": config.k1, "key": config.k2}}
+        });
     }
 
-    var ConfiguracionCanales = {
-
-      "USANETWORK": {
-        url: "https://linearjitp-playback.astro.com.my/dash-wv/linear/2504/default.mpd",
-        k1: "03c2e0af2f8159f9f0ce9b5dbc865f10",
-        k2: "cd84ed136b0cc71f8ab8cd4d4f6a2e4c"
-      },
-
-
-
-    };
-
-    var id = getParameterByName('id');
-    var config = ConfiguracionCanales[id];
-
-    if (config) {
-      var sources = [];
-
-      if (config.url.includes('.m3u8')) {
-        sources.push({
-          file: config.url
-        });
-      }
-
-      if (config.url.includes('.mpd') && config.k1 && config.k2) {
-        sources.push({
-          file: config.url,
-          drm: {
-            "clearkey": {
-              "keyId": config.k1,
-              "key": config.k2
-            }
-          }
-        });
-      }
-
-      //JWWWWWW
-      jwplayer("player").setup({
+ //JWWWWWW
+    jwplayer("player").setup({
         playlist: [{
-          sources: sources
+            sources: sources
         }],
         autostart: true,
-        width: "100%",
-        height: "100%",
+        width: "100%", 
+        height: "100%", 
         stretching: "exactfit",
         aspectratio: "16:9",
-        cast: {},
-
-      });
-    }
-  </script>
+        cast: {}, 
+       
+        });
+        }
+    </script>
 </body>
-
 </html>
